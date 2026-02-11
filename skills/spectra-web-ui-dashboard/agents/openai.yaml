@@ -1,0 +1,4 @@
+interface:
+  display_name: "SPECTRA Web UI Dashboard"
+  short_description: "Secure dashboard and REST telemetry APIs."
+  default_prompt: "Use this skill to implement web APIs, dashboard UX, and stream-safe telemetry views."

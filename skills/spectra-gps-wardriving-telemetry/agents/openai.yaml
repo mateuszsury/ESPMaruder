@@ -1,0 +1,4 @@
+interface:
+  display_name: "SPECTRA GPS and Geotag Telemetry"
+  short_description: "GPS ingestion, route logs, and geotag exports."
+  default_prompt: "Use this skill for GPS integration, geotagged scan pipelines, and route export workflows."

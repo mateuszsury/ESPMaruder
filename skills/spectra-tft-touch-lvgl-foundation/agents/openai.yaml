@@ -1,0 +1,4 @@
+interface:
+  display_name: "SPECTRA TFT Touch LVGL Foundation"
+  short_description: "ILI9341, XPT2046, and LVGL platform setup."
+  default_prompt: "Use this skill for display bring-up, touch calibration, and LVGL runtime foundation."

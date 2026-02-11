@@ -1,0 +1,11 @@
+menu "SPECTRA Storage"
+
+config SPECTRA_STORAGE_ENABLE_SD
+    bool "Enable SD card mount and file operations"
+    default y
+    help
+        Enables SDSPI-based SD card support in storage manager.
+        If target SoC does not expose GPSPI support in current IDF profile,
+        runtime will gracefully fall back to not-supported mode.
+
+endmenu

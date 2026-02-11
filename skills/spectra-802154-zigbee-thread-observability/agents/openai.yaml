@@ -1,0 +1,4 @@
+interface:
+  display_name: "SPECTRA 802.15.4 Zigbee and Thread Observability"
+  short_description: "Passive Zigbee and Thread discovery/decoding."
+  default_prompt: "Use this skill for lawful 802.15.4 discovery, decoding, and topology mapping."

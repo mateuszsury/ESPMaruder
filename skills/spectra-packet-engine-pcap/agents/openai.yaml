@@ -1,0 +1,4 @@
+interface:
+  display_name: "SPECTRA Packet Engine PCAP"
+  short_description: "Shared packet model, filters, and PCAP export."
+  default_prompt: "Use this skill for capture pipeline design, packet filtering, and file format correctness."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "SPECTRA Test Automation"
+  short_description: "Unit, integration, and endurance validation suites."
+  default_prompt: "Use this skill to build automated test pipelines and repeatable validation scenarios."
