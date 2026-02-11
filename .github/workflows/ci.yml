@@ -1,0 +1,36 @@
+name: CI
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+
+jobs:
+  headless-build:
+    name: ESP-IDF headless build
+    runs-on: ubuntu-latest
+    container:
+      image: espressif/idf:release-v5.5
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Configure safe directory
+        run: git config --global --add safe.directory "$GITHUB_WORKSPACE"
+
+      - name: Build headless profile
+        shell: bash
+        run: |
+          set -euo pipefail
+          chmod +x scripts/wsl/build_instance.sh
+          export SPECTRA_IDF_ROOT="${IDF_PATH}"
+          ./scripts/wsl/build_instance.sh ci headless
+
+      - name: Upload firmware artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: spectra-ci-headless
+          path: |
+            out/build/ci-headless/spectra.bin
+            out/build/ci-headless/spectra.elf
