@@ -9,3 +9,6 @@ out/
 .idea/
 .vscode/
 .venv/
+
+# Local planning artifacts
+plan.md
