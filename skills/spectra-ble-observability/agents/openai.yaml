@@ -1,0 +1,4 @@
+interface:
+  display_name: "SPECTRA BLE Observability"
+  short_description: "Passive BLE scan, parse, and GATT discovery."
+  default_prompt: "Use this skill for BLE observability, profile inspection, and defensive diagnostics."

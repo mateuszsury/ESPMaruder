@@ -1,0 +1,4 @@
+interface:
+  display_name: "SPECTRA ESP-IDF C5 Bootstrap"
+  short_description: "ESP32-C5 project bootstrap and build baselines."
+  default_prompt: "Use this skill to initialize ESP-IDF structure, sdkconfig defaults, and component layout."

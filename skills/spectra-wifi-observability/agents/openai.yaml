@@ -1,0 +1,4 @@
+interface:
+  display_name: "SPECTRA Wi-Fi Observability"
+  short_description: "Passive Wi-Fi scan, sniff, and telemetry analysis."
+  default_prompt: "Use this skill for lawful Wi-Fi observability features and defensive telemetry."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "SPECTRA Hardening and Reliability"
+  short_description: "Watchdogs, memory policy, and crash recovery."
+  default_prompt: "Use this skill for resilience hardening, long-run stability, and failure recovery."

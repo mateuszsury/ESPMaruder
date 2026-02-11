@@ -1,0 +1,4 @@
+interface:
+  display_name: "SPECTRA GUI Screens for Radio Modules"
+  short_description: "LVGL screens for Wi-Fi, BLE, and 802.15.4."
+  default_prompt: "Use this skill to implement radio-oriented LVGL screens and interaction contracts."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "SPECTRA Docs and Release Artifacts"
+  short_description: "Release documentation and compliance artifacts."
+  default_prompt: "Use this skill to maintain project documentation, release notes, and legal disclaimers."

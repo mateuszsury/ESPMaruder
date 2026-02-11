@@ -1,0 +1,4 @@
+interface:
+  display_name: "SPECTRA Cross Protocol Analysis"
+  short_description: "Wi-Fi, BLE, and 802.15.4 correlation workflows."
+  default_prompt: "Use this skill for multi-radio coexistence and event correlation analytics."

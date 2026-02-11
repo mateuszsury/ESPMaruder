@@ -1,0 +1,4 @@
+interface:
+  display_name: "SPECTRA Governance and Compliance"
+  short_description: "Legal scope, consent, and lab-only safeguards."
+  default_prompt: "Use this skill to enforce legal scope, consent records, and non-offensive safety gates."

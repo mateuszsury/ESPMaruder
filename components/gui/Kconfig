@@ -1,0 +1,18 @@
+menu "SPECTRA GUI"
+
+config SPECTRA_GUI_ENABLE
+    bool "Enable GUI foundation task and event queue"
+    default y
+    help
+        Enables the GUI foundation module, including event queue and
+        main GUI task skeleton.
+
+config SPECTRA_GUI_ENABLE_HW_DRIVERS
+    bool "Enable TFT/touch hardware driver access"
+    depends on SPECTRA_GUI_ENABLE
+    default y
+    help
+        Enables direct hardware calls for TFT and touch drivers.
+        Disable this in headless labs without display/touch hardware.
+
+endmenu

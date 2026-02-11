@@ -1,0 +1,4 @@
+interface:
+  display_name: "SPECTRA Storage Config Core"
+  short_description: "NVS, SPIFFS, and SD data lifecycle rules."
+  default_prompt: "Use this skill for persistence design, retention policy, and storage failure handling."

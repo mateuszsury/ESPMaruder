@@ -1,0 +1,4 @@
+interface:
+  display_name: "SPECTRA CLI Command Engine"
+  short_description: "Typed command parser and dispatch system."
+  default_prompt: "Use this skill for command grammar, argument validation, and shell UX."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "SPECTRA GUI Engine Integration"
+  short_description: "Event bus, throttling, and UI-engine sync rules."
+  default_prompt: "Use this skill to integrate GUI event handling with backend engine lifecycles."

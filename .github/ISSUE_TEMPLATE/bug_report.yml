@@ -1,0 +1,46 @@
+name: Bug report
+description: Report a reproducible problem
+title: "[BUG] "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: "Thanks for reporting. Please provide enough detail for deterministic reproduction."
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: Short description of the bug
+      placeholder: What is broken?
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Reproduction steps
+      description: Exact steps to reproduce
+      placeholder: |
+        1. Build profile used:
+        2. Command executed:
+        3. Observed result:
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+      placeholder: What did you expect to happen?
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs and artifacts
+      description: Build output, serial logs, screenshots, relevant file paths
+  - type: input
+    id: phase
+    attributes:
+      label: Related phase
+      description: Example: phase-2.1
+      placeholder: phase-x.y
