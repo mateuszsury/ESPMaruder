@@ -28,7 +28,7 @@ jobs:
           ./scripts/wsl/build_instance.sh ci headless
 
       - name: Upload firmware artifact
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v6
         with:
           name: spectra-ci-headless
           path: |
