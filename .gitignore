@@ -12,3 +12,11 @@ out/
 
 # Local planning artifacts
 plan.md
+
+# Generated development files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+dist/

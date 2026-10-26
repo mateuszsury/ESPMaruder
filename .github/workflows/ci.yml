@@ -5,13 +5,18 @@ on:
     branches:
       - main
   pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
 
 jobs:
   headless-build:
     name: ESP-IDF headless build
     runs-on: ubuntu-latest
+    timeout-minutes: 30
     container:
-      image: espressif/idf:release-v5.5
+      image: espressif/idf:v5.5.1
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -30,6 +35,7 @@ jobs:
       - name: Upload firmware artifact
         uses: actions/upload-artifact@v4
         with:
+          if-no-files-found: error
           name: spectra-ci-headless
           path: |
             out/build/ci-headless/spectra.bin
