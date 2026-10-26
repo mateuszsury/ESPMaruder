@@ -92,3 +92,10 @@ Please read:
 ## License
 
 MIT License. See `LICENSE`.
+
+## Repository identity and validation
+
+The historical repository name `ESPMaruder` hosts the SPECTRA ESP32-C5 research
+platform. CI builds the headless profile with ESP-IDF 5.5.1; successful compilation
+does not replace real-device radio, endurance or GUI validation. Maintainer:
+Mateusz Sury. Keep original third-party notices and controlled-lab scope.

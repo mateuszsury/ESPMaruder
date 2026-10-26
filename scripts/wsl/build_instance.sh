@@ -23,7 +23,7 @@ if [[ -n "${IDF_PATH:-}" && "${IDF_PATH}" != "${IDF_ROOT}" ]]; then
   unset IDF_PATH
 fi
 
-if [[ -z "${IDF_PATH:-}" ]]; then
+if [[ -z "${IDF_PATH:-}" ]] || ! command -v idf.py >/dev/null 2>&1; then
   if [[ -f "${IDF_ROOT}/export.sh" ]]; then
     # shellcheck source=/dev/null
     source "${IDF_ROOT}/export.sh" >/dev/null
