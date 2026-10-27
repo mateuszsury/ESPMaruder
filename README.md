@@ -7,6 +7,14 @@ SPECTRA is an ESP-IDF based platform for controlled-lab radio observability and 
 
 This repository tracks implementation from `plan.md` with explicit phase traceability, governance gates, and milestone handoffs.
 
+## Project overview
+
+A phased ESP-IDF platform for controlled-lab radio observability and defensive validation.
+
+![SPECTRA for ESP32-C5 — Platform and delivery overview. Module readiness follows plan.md; a headless build does not prove every radio or GUI capability.](docs/assets/presentation/overview.svg)
+
+Platform and delivery overview. Module readiness follows plan.md; a headless build does not prove every radio or GUI capability.
+
 ## Legal and scope notice
 
 Use only in authorized, controlled laboratory environments on owned devices and networks.
