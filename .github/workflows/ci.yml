@@ -19,7 +19,7 @@ jobs:
       image: espressif/idf:v5.5.1
     steps:
       - name: Checkout
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
 
       - name: Configure safe directory
         run: git config --global --add safe.directory "$GITHUB_WORKSPACE"
